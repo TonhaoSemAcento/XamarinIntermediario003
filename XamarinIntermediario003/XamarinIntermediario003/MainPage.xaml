@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:XamarinIntermediario003"
              x:Class="XamarinIntermediario003.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Label Text="Welcome to Xamarin Forms!"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"
+           TextColor="{StaticResource danger}"
+           />
 
 </ContentPage>
